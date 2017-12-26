@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3E5D85366BEE64FAFDFACF7B /* Pods_SchedditTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F7B2C47F06178A710E4156 /* Pods_SchedditTests.framework */; };
 		670748661FF20DCC003448E4 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670748651FF20DCC003448E4 /* SignInViewController.swift */; };
+		6707486C1FF21662003448E4 /* SetupSchedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6707486B1FF21662003448E4 /* SetupSchedViewController.swift */; };
+		6707486E1FF21803003448E4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6707486D1FF21803003448E4 /* SignUpViewController.swift */; };
 		670D673C1FF205700012EB7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670D673B1FF205700012EB7D /* AppDelegate.swift */; };
 		670D67411FF205700012EB7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670D673F1FF205700012EB7D /* Main.storyboard */; };
 		670D67431FF205700012EB7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 670D67421FF205700012EB7D /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 		31F7B2C47F06178A710E4156 /* Pods_SchedditTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchedditTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B0600E81937A8BAD2EA547 /* Pods-Scheddit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scheddit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scheddit/Pods-Scheddit.release.xcconfig"; sourceTree = "<group>"; };
 		670748651FF20DCC003448E4 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		6707486B1FF21662003448E4 /* SetupSchedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupSchedViewController.swift; sourceTree = "<group>"; };
+		6707486D1FF21803003448E4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		670D67381FF205700012EB7D /* Scheddit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scheddit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		670D673B1FF205700012EB7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		670D67401FF205700012EB7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				670748651FF20DCC003448E4 /* SignInViewController.swift */,
+				6707486B1FF21662003448E4 /* SetupSchedViewController.swift */,
+				6707486D1FF21803003448E4 /* SignUpViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -514,6 +520,8 @@
 			files = (
 				670748661FF20DCC003448E4 /* SignInViewController.swift in Sources */,
 				670D673C1FF205700012EB7D /* AppDelegate.swift in Sources */,
+				6707486E1FF21803003448E4 /* SignUpViewController.swift in Sources */,
+				6707486C1FF21662003448E4 /* SetupSchedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
